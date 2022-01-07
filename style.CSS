@@ -1,0 +1,19 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+header{
+    background-color:chartreuse;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+.title{
+    font-size: 1.5rem;
+}
