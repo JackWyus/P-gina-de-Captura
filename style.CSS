@@ -19,5 +19,48 @@ header{
 }
 
 section{
-    color: white;
+    padding: 20px;
+    background-image: url('../Desafio/Imagens/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Pesquisar */
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: black;
+    background-color:chartreuse;
+    font-weight: bold; /* Pesquisar */
+}
+
+select{
+    -moz-appearance: none; /* Pesquisar esse modo de tirar a aparência do drop box do <select>*/
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('/PrBr/Desen.Web/Desafio/Imagens/arrow.jpg');
+    background-repeat: no-repeat; /* Pesqusiar */
+    background-position-x: calc(100% - 10px); /* Pesquisar */
+    background-position-y: center; /* Pesqusiar */
+    /*background-position: calc(100% - 10px);*/
 }
